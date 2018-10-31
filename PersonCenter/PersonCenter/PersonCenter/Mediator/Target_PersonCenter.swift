@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc class PersonCenter_Target: NSObject {
+@objc class Target_PersonCenter: NSObject {
     @objc func Action_PersonCenterViewController(pargms: [String: Any]) -> UIViewController {
         if let callback = pargms["callback"] as? (String) -> Void {
         callback("Person Center init success")
